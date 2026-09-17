@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KLECommerce - Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="logo">
+            <img src="images/logo.png" alt="KLECommerce Logo">
+        </div>
+
+        <div class="search">
+            <input type="text" placeholder="Search Products">
+            <input type="submit" value="Search">
+        </div>
+
+        <div class="account">
+            <a href="login.html">Login</a> |
+            <a href="register.html">Register</a> |
+            <b>Cart (0)</b>
+        </div>
+
+    </header>
+
+
+    <!-- CATEGORY MENU -->
+    <nav class="categories">
+
+        <div>Fashion</div>
+        <div>Groceries</div>
+        <div>Electronics</div>
+        <div>Mobiles</div>
+        <div>Appliances</div>
+        <div>Beauty</div>
+        <div>Books</div>
+        <div>Sports</div>
+
+    </nav>
+
+
+    <!-- REGISTER -->
+    <main class="auth-section">
+
+        <div class="auth-box">
+
+            <h2>CREATE ACCOUNT</h2>
+
+            <form id="registerForm">
+
+                <label>Name</label>
+                <input type="text"
+                       id="name"
+                       placeholder="Enter Name"
+                       required>
+
+                <label>Email</label>
+                <input type="email"
+                       id="email"
+                       placeholder="Enter Email"
+                       required>
+
+                <label>Password</label>
+                <input type="password"
+                       id="password"
+                       placeholder="Enter Password"
+                       required>
+
+                <label>Mobile</label>
+                <input type="text"
+                       id="mobile"
+                       placeholder="Enter Mobile Number"
+                       required>
+
+                <button type="submit">Register</button>
+
+            </form>
+
+            <p>
+                Already have an account?
+                <a href="login.html">Login Here</a>
+            </p>
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div>
+            <h3>KLECommerce</h3>
+            <p>Your Online Shopping Store</p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <p>Home</p>
+            <p>Products</p>
+            <p>Offers</p>
+        </div>
+
+        <div>
+            <h3>Customer Service</h3>
+            <p>Contact Us</p>
+            <p>Help</p>
+            <p>Returns</p>
+        </div>
+
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
